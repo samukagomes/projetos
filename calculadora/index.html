@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div class="calculadora">
+        <div class="resp">
+            <label class="conta" id="lblConta"></label>
+            <br>
+            <label class="resultado" id="lblResultado"></label>
+            <br>
+        </div>
+        <button class="btn" onclick="limpar()">c</button>
+        <br>
+        <button class="btn" onclick="insert(7)">7</button>
+        <button class="btn" onclick="insert(8)">8</button>
+        <button class="btn" onclick="insert(9)">9</button>
+        <button class="btn" onclick="insert('+')">+</button><br>
+        <button class="btn" onclick="insert(5)">5</button>
+        <button class="btn" onclick="insert(6)">6</button>
+        <button class="btn" onclick="insert(7)">7</button>
+        <button class="btn" onclick="insert('-')">-</button><br>
+        <button class="btn" onclick="insert(1)">1</button>
+        <button class="btn" onclick="insert(2)">2</button>
+        <button class="btn" onclick="insert(3)">3</button>
+        <button class="btn" onclick="insert('/')">/</button><br>
+        <button class="btn" onclick="insert(0)">0</button>
+        <button class="btn" onclick="insert('.')"> . </button>
+        <button class="btn" onclick="calcular()"> = </button>
+        <button class="btn" onclick="insert('*')">*</button>
+    </div>
+    
+    <script src="calculo.js"></script>
+</body>
+</html>
+
